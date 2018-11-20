@@ -1,0 +1,36 @@
+/*STUFF*/
+
+@font-face {
+    font-family: candh;
+    src: url("../fonts/CALVINN.TTF");
+}
+
+h1 {
+    font-family: candh;
+    text-align: center;
+}
+
+/*For the Nav*/
+#sidenav{
+    background-color: #a01c76;
+    width:25%;
+    float:left;
+}
+#sidenav img{
+    width: 256px;
+    padding: 2%;
+    display: block;
+    margin: auto;
+}
+#nav-items{
+    list-style: none;
+}
+#nav-items li a {
+    color: whitesmoke;
+    transition-duration: 0.3s;
+}
+#nav-items li a:hover {
+    color: orangered;
+    font-size: larger;
+}
+
