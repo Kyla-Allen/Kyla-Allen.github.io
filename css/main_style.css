@@ -1,19 +1,26 @@
-/*CLASSES TO MANIPULATE DOM*/
-.showOff {
-    display: none;
+/* General stuff. */
+
+body {
+    background-color: #71ede9;
 }
 
 h1 {
-    text-align: center;
+    font-size: 30px;
+    position: relative;
 }
 
 
-/*NAV MENU ==== Mobile*/
-#mobile_img {
-    width: 48px;
-    transition-duration: 0.5s;
+
+/*Header*/
+header h1 {
+    padding: 1%;
+    color: #8edfff;
 }
 
-#mobile_img:hover {
-    border: palevioletred 2px solid;
+header p {
+    color: #a0d7ff;
+}
+
+.jumbotron {
+    background-image: url("../images/beautiful-blur-bright-326055.jpg");
 }
