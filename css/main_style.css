@@ -14,7 +14,6 @@ ul li {
 }
 
 
-
 /*Header*/
 header h1 {
     padding: 1%;
@@ -27,4 +26,9 @@ header p {
 
 .jumbotron {
     background-image: url("../images/beautiful-blur-bright-326055.jpg");
+}
+
+/*Carousel*/
+.carousel-item {
+    width: 40%;
 }
