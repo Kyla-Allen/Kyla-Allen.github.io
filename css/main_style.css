@@ -14,6 +14,40 @@ ul li {
 }
 
 
+/*FOR THE NAVBAR*/
+
+nav button{
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #008CBA;
+    border: #8edfff solid 2px;
+    transition-duration: 0.3s;
+}
+
+nav button:hover{
+    background-color: #002CBA;
+}
+
+nav button:active{
+    background-color: #002CBA;
+    transform: translateY(4px);
+}
+
+nav a {
+    margin: 5px;
+    transition-duration: 0.3s;
+}
+
+nav a:hover{
+    color: darkslategray;
+}
+
+.collapse {
+    float: right;
+}
+
+
+
 /*Header*/
 header h1 {
     padding: 1%;
@@ -26,9 +60,4 @@ header p {
 
 .jumbotron {
     background-image: url("../images/beautiful-blur-bright-326055.jpg");
-}
-
-/*Carousel*/
-.carousel-item {
-    width: 40%;
 }
